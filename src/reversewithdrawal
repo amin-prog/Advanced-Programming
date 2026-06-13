@@ -1,0 +1,13 @@
+public boolean reverse() {
+
+    if (accountUsed == null) {
+        return false;
+    }
+
+    accountUsed.deposit(amount);
+
+    System.out.println(
+            "Withdrawal reversed successfully.");
+
+    return true;
+}
